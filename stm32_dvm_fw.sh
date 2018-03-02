@@ -1,7 +1,9 @@
 # Configure latest version
 FW_VERSION="v1.3.3"
 
-mkdir bin
+mkdir /MMDVM/bin
+
+cd MMDVM
 
 curl -OL https://github.com/VR2VYE/STM32_DVM_fw/master/Makefile.CMSIS
 
@@ -16,4 +18,3 @@ sudo pistar-watchdog.service stop
 sudo systemctl stop mmdvmhost.timer
 sudo systemctl stop mmdvmhost.service
 
-program-STM32_DVM_PiHat
