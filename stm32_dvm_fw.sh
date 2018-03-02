@@ -3,7 +3,7 @@ FW_VERSION="v1.3.3"
 
 mkdir bin
 
-git clone https://github.com/VR2VYE/STM32_DVM_fw.git
+curl -OL https://github.com/VR2VYE/STM32_DVM_fw/master/Makefile.CMSIS
 
 cd bin
 
