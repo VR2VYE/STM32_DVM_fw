@@ -22,12 +22,12 @@ FW_VERSION="v20180223"
 # Change USB-serial port name ONLY in macOS
 MAC_DEV_USB_SER="/dev/cu.usbmodem1441"
 	
-# Download latest firmware for MMDVM_HS_Hat
+# Download latest firmware for MMDVM_DVM
 curl -OL https://github.com/VR2VYE/STM32_DVM_fw/releases/download/$FW_VERSION/mmdvm_19.2.hex
 
 # Download STM32F10X_Lib (only for binary tools)
 if [ ! -d "./STM32F10X_Lib/utils" ]; then
-  git clone https://github.com/juribeparada/STM32F10X_Lib
+  git clone https://github.com/VR2VYE/STM32F10X_Lib
 fi
 
 # Configure vars depending on OS
