@@ -27,7 +27,7 @@ curl -OL https://github.com/VR2VYE/STM32_DVM_fw/releases/download/$FW_VERSION/mm
 
 # Download STM32F10X_Lib (only for binary tools)
 if [ ! -d "./STM32F10X_Lib/utils" ]; then
-  git clone https://github.com/juribeparada/STM32F10X_Lib
+  git clone https://github.com/VR2VYE/STM32F10X_Lib
 fi
 
 # Configure vars depending on OS
