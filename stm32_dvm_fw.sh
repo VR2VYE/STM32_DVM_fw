@@ -79,6 +79,5 @@ eval sudo $STM32FLASH -w mmdvm.hex -v /dev/ttyAMA0
 
 rm -r STM32F10X_Lib
 rm mmdvm.hex
-rm stm32_dvm_fw.sh
 
 reboot
