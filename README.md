@@ -8,7 +8,7 @@ Shutdown the Raspberry Pi
 
 Disconnect power to Raspberry Pi 
 
-Insert JP1 jumper 
+Insert BOOT0 jumper 
 
 Power ON the Raspberry Pi 
 
@@ -28,6 +28,6 @@ Shutdown the Raspberry Pi
 
 Disconnect power to Raspberry Pi
 
-remove JP1 jumper
+remove BOOT0 jumper
 
 Power ON the Raspberry Pi
