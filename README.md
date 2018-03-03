@@ -8,15 +8,24 @@ make the script executable:
 chmod +x stm32_dvm_fw.sh
 
 Shutdown the Raspberry Pi
-Disconnect power to Raspberry Pi
-Insert JP1 jumper
-Power ON the Raspberry Pi
-PWR, ACT and DMR should be lit solid, NOT flashing.
+
+Disconnect power to Raspberry Pi 
+
+Insert JP1 jumper 
+
+Power ON the Raspberry Pi 
+
+PWR, ACT and DMR should be lit solid, NOT flashing. 
 
 run stm32_dvm_fw.sh
+
 ./stm32_dvm_fw.sh
 
 Shutdown the Raspberry Pi
+
 Disconnect power to Raspberry Pi
+
 remove JP1 jumper
+
 Power ON the Raspberry Pi
+
