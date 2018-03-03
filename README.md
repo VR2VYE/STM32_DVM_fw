@@ -1,8 +1,8 @@
 #Choose the relay board you are using
 
-stm32_dvm_fw12.sh  ：Applies to stm32f105, the crystal is 12MHz relay board
+stm32_dvm_fw12.sh  ：Applies to stm32f105, the TCXO is 12MHz relay board
 
-stm32_dvm_fw19.2.sh  ：Applies to stm32f105, the crystal is 19.2MHz relay board
+stm32_dvm_fw19.2.sh  ：Applies to stm32f105, the TCXO is 19.2MHz relay board
 
 Shutdown the Raspberry Pi
 
