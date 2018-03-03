@@ -1,5 +1,5 @@
 
-stm32_dvm_fw.sh  ：Applies to stm32f105, the crystal is 19.2MHz relay board
+stm32_dvm_fw19.2.sh  ：Applies to stm32f105, the crystal is 19.2MHz relay board
 
 Shutdown the Raspberry Pi
 
@@ -11,15 +11,15 @@ Power ON the Raspberry Pi
 
 PWR, ACT and DMR should be lit solid, NOT flashing.
 
-curl -OL https://raw.github.com/VR2VYE/STM32_DVM_fw/master/stm32_dvm_fw.sh
+curl -OL https://raw.github.com/VR2VYE/STM32_DVM_fw/master/stm32_dvm_fw19.2.sh
 
 make the script executable:
 
-chmod +x stm32_dvm_fw.sh
+chmod +x stm32_dvm_fw19.2.sh
 
-run stm32_dvm_fw.sh
+run stm32_dvm_fw19.2.sh
 
-./stm32_dvm_fw.sh
+./stm32_dvm_fw19.2.sh
 
 Shutdown the Raspberry Pi
 
