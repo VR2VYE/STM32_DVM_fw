@@ -20,6 +20,14 @@ make the script executable:
 
 chmod +x stm32_dvm_fw19.2.sh
 
+If you are using Pi-Star, stop services:
+
+sudo pistar-watchdog.service stop
+
+sudo systemctl stop mmdvmhost.timer
+
+sudo systemctl stop mmdvmhost.service
+
 run stm32_dvm_fw19.2.sh
 
 ./stm32_dvm_fw19.2.sh
